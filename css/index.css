@@ -1,7 +1,9 @@
 .header img{
-	width: 200px;
-	size: 100px;
-	margin-right: auto;
+	width: 250px;
+	size: 150px;
+	padding-left: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 
 .header ul{
@@ -12,78 +14,103 @@
 	background-color: black;
 }
 
+.search {
+	width: 20%;
+	float: right;
+	border-radius: 15px;
+	background-color: #ebebeb;
+	border-color: black;
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 .topnav {
+	width: 100%;
 	overflow: hidden;
-	background-color: #333;
+	background-color: #271f1c;
 	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .topnav a {
+	width: 22%;
 	float: left;
 	display: block;
-	color: f2f2f2;
+	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
 }
+
 .topnav a:hover {
-	background-color: #ddd;
-	color: black;
+	color: #D1DF44;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-}
-.bodying img{
-	width: 250px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+.main img{
+	width: inherit;
+	padding: 25px;
 }
 
-.bodying {
-	background: #a9a9a9;
-	padding-top: 10px;
-	padding-bottom: 10px;
+.main {
+	background: #b7b7b9;
 }
 
-#threecols {
+#bottom {
 	display:flex;
-	background-color: gray;
+	background-color: white;
+	padding: 35px;
 }
 
 .column{
 	flex: 1;
-	width: 25%;
+	width: 33%;
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 #sidebar {
-	background-color: #e5e5e5;
-	padding: 10px
-	overflow: scroll;
-	max-height: 700px;
+	background-color: #eeeef0;
+	padding: 30px;
+	overflow-y: scroll;
+	height: 450px;
 	line-height: 2;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 #photo2{
 	width: 25%
 }
+
 #photo3{
 	width: 25%
 }
 
 .navbar {
-  background-color: #333;
+  background-color: #271f1c;
   overflow: hidden;
   position: fixed;
   bottom: 0;
   width: 100%;
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar a {
+	width: 22%;
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #aaaca7;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 12px;
+	border-right: 2px solid #aaaca7;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a:hover {
+	color: #D1DF44;
 }
